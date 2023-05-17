@@ -191,6 +191,8 @@ html {
     width: 90%;
     font-size: 1.5em;
     font-size: 50px;
+    display: flex;
+    justify-content: c;
 }
 
 .tabela-dias td {
