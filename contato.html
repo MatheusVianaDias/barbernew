@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3df637a2f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contrato.css">
+    <title>Apimel</title>
+</head>
+
+
+<body>
+
+    <h1>Formulário de Contato</h1>
+    <h3>Faça seu Orçamento</h3>
+
+    <div>
+        <form action="https://formsubmit.co/matheusvianadias@gmail.com" method="POST">
+
+            <label for="name">Nome Completo</label>
+            <input type="name" name="name" id="name" placeholder="Digite o seu Nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite o seu e-mail" required>
+
+            <label for="cpf_cnpj">CPF ou CNPJ</label>
+            <select id="cpf_cnpj" name="cpf_cnpj">
+                <option selected disabled value="">ESCOLHA SE É CPF OU CNPJ</option>
+                <option value="CPF">CPF</option>
+                <option value="CNPJ">CNPJ</option>
+            </select>
+
+            <label for="numero"></label>
+            <input type="number" name="numero" id="numero" placeholder="Digite o CPF ou CNPJ" required>
+
+            <label for="rg">RG</label>
+            <input type="number" name="rg" id="rg" placeholder="Digite seu RG" required>
+
+
+            <label for="cell">Telefone</label>
+            <input type="tel" name="cell" id="cell" placeholder="(**)*****-****" required>
+
+
+            <label for="endereço">Endereço</label>
+            <input type="text" name="endereço" id="endereço" placeholder="Digite seu endereço" required>
+
+
+            <label for="number">Número</label>
+            <input type="number" name="number" id="number" placeholder="Digite o número do estabelecimento" required>
+
+
+            <label for="compli">Complemento</label>
+            <input type="text" name="compli" id="compli" placeholder="Digite o complemento">
+
+
+            <label for="bairro">Bairro</label>
+            <input type="text" name="bairro" id="bairro" placeholder="Digite o bairro" required>
+
+
+            <label for="cep">CEP</label>
+            <input type="number" name="cep" id="cep" placeholder="Digite o CEP" required>
+
+
+            <label for="cidade">Cidade</label>
+            <input type="text" name="cidade" id="cidade" placeholder="Digite sua Cidade" required>
+
+            <label for="estado">Estado</label>
+            <select id="estado" name="estado">
+                <option selected disabled value="">Estado</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+            </select>
+
+            <h4>CAIXAS APIMEL</h4>
+            <div id="caixinhas">
+                <label for="sabores1">Sabores (1)</label>
+                <select id="sabores1" name="sabores1">
+                    <option selected disabled value="">Sabores</option>
+                    <option value="código 131">Sabor: Eucalipto Copaíba (código 131)</option>
+                    <option value="código 001">Sabor: Geleia Real (código 001)</option>
+                    <option value="código 006">Sabor: Alho / Eucalipto (código 006)</option>
+                    <option value="código 002">Sabor: Eucalipto (código 002)</option>
+                    <option value="código 021">Sabor: Abacaxi/Hortelã (código 021)</option>
+                    <option value="código 068">Sabor: Açaí e Guaraná (código 068)</option>
+                    <option value="código 007">Sabor: Acerola (código 007)</option>
+                    <option value="código 008">Sabor: Amendoim (código 008)</option>
+                    <option value="código 005">Sabor: Limão (código 005)</option>
+                    <option value="código 004">Sabor: Romã/Gengibre (código 004)</option>
+                </select>
+
+                <label for="quantidades1">Quantidade (1)</label>
+
+                <select id="quantidades1" name="quantidades1">
+                    <option selected disabled value="">Quantidades</option>
+                    <option value="1 Caixa">1 Caixa</option>
+                    <option value="2 Caixas">2 Caixa</option>
+                    <option value="3 Caixas">3 Caixa</option>
+                    <option value="4 Caixas">4 Caixa </option>
+                    <option value="5 Caixas">5 Caixa </option>
+                    <option value="6 Caixas">6 Caixa </option>
+                    <option value="7 Caixas">7 Caixa </option>
+                    <option value="8 Caixas">8 Caixa </option>
+                    <option value="9 Caixas">9 Caixa </option>
+                    <option value="10 Caixas">10 Caixa </option>
+
+                </select>
+                <label for="sabores2">Sabores (2)</label>
+                <select id="sabores2" name="sabores2">
+                    <option selected disabled value="">Sabores</option>
+                    <option value="código 131">Sabor: Eucalipto Copaíba (código 131)</option>
+                    <option value="código 001">Sabor: Geleia Real (código 001)</option>
+                    <option value="código 006">Sabor: Alho / Eucalipto (código 006)</option>
+                    <option value="código 002">Sabor: Eucalipto (código 002)</option>
+                    <option value="código 021">Sabor: Abacaxi/Hortelã (código 021)</option>
+                    <option value="código 068">Sabor: Açaí e Guaraná (código 068)</option>
+                    <option value="código 007">Sabor: Acerola (código 007)</option>
+                    <option value="código 008">Sabor: Amendoim (código 008)</option>
+                    <option value="código 005">Sabor: Limão (código 005)</option>
+                    <option value="código 004">Sabor: Romã/Gengibre (código 004)</option>
+                </select>
+
+                <label for="quantidades2">Quantidade (2)</label>
+
+                <select id="quantidades2" name="quantidades2">
+                    <option selected disabled value="">Quantidades</option>
+                    <option value="1 Caixa">1 Caixa</option>
+                    <option value="2 Caixas">2 Caixa</option>
+                    <option value="3 Caixas">3 Caixa</option>
+                    <option value="4 Caixas">4 Caixa </option>
+                    <option value="5 Caixas">5 Caixa </option>
+                    <option value="6 Caixas">6 Caixa </option>
+                    <option value="7 Caixas">7 Caixa </option>
+                    <option value="8 Caixas">8 Caixa </option>
+                    <option value="9 Caixas">9 Caixa </option>
+                    <option value="10 Caixas">10 Caixa </option>
+
+                </select>
+                <label for="sabores3">Sabores (3)</label>
+                <select id="sabores3" name="sabores3">
+                    <option selected disabled value="">Sabores</option>
+                    <option value="código 131">Sabor: Eucalipto Copaíba (código 131)</option>
+                    <option value="código 001">Sabor: Geleia Real (código 001)</option>
+                    <option value="código 006">Sabor: Alho / Eucalipto (código 006)</option>
+                    <option value="código 002">Sabor: Eucalipto (código 002)</option>
+                    <option value="código 021">Sabor: Abacaxi/Hortelã (código 021)</option>
+                    <option value="código 068">Sabor: Açaí e Guaraná (código 068)</option>
+                    <option value="código 007">Sabor: Acerola (código 007)</option>
+                    <option value="código 008">Sabor: Amendoim (código 008)</option>
+                    <option value="código 005">Sabor: Limão (código 005)</option>
+                    <option value="código 004">Sabor: Romã/Gengibre (código 004)</option>
+                </select>
+
+                <label for="quantidades3">Quantidade (3)</label>
+
+                <select id="quantidades3" name="quantidades3">
+                    <option selected disabled value="">Quantidades</option>
+                    <option value="1 Caixa">1 Caixa</option>
+                    <option value="2 Caixas">2 Caixa</option>
+                    <option value="3 Caixas">3 Caixa</option>
+                    <option value="4 Caixas">4 Caixa </option>
+                    <option value="5 Caixas">5 Caixa </option>
+                    <option value="6 Caixas">6 Caixa </option>
+                    <option value="7 Caixas">7 Caixa </option>
+                    <option value="8 Caixas">8 Caixa </option>
+                    <option value="9 Caixas">9 Caixa </option>
+                    <option value="10 Caixas">10 Caixa </option>
+
+                </select>
+
+                </select>
+                <label for="sabores4">Sabores (4)</label>
+                <select id="sabores4" name="sabores4">
+                    <option selected disabled value="">Sabores</option>
+                    <option value="código 131">Sabor: Eucalipto Copaíba (código 131)</option>
+                    <option value="código 001">Sabor: Geleia Real (código 001)</option>
+                    <option value="código 006">Sabor: Alho / Eucalipto (código 006)</option>
+                    <option value="código 002">Sabor: Eucalipto (código 002)</option>
+                    <option value="código 021">Sabor: Abacaxi/Hortelã (código 021)</option>
+                    <option value="código 068">Sabor: Açaí e Guaraná (código 068)</option>
+                    <option value="código 007">Sabor: Acerola (código 007)</option>
+                    <option value="código 008">Sabor: Amendoim (código 008)</option>
+                    <option value="código 005">Sabor: Limão (código 005)</option>
+                    <option value="código 004">Sabor: Romã/Gengibre (código 004)</option>
+                </select>
+
+                <label for="quantidades4">Quantidade (4)</label>
+
+                <select id="quantidades4" name="quantidades4">
+                    <option selected disabled value="">Quantidades</option>
+                    <option value="1 Caixa">1 Caixa</option>
+                    <option value="2 Caixas">2 Caixa</option>
+                    <option value="3 Caixas">3 Caixa</option>
+                    <option value="4 Caixas">4 Caixa </option>
+                    <option value="5 Caixas">5 Caixa </option>
+                    <option value="6 Caixas">6 Caixa </option>
+                    <option value="7 Caixas">7 Caixa </option>
+                    <option value="8 Caixas">8 Caixa </option>
+                    <option value="9 Caixas">9 Caixa </option>
+                    <option value="10 Caixas">10 Caixa </option>
+
+                </select>
+                </select>
+                <label for="sabores5">Sabores (5)</label>
+                <select id="sabores5" name="sabores5">
+                    <option selected disabled value="">Sabores</option>
+                    <option value="código 131">Sabor: Eucalipto Copaíba (código 131)</option>
+                    <option value="código 001">Sabor: Geleia Real (código 001)</option>
+                    <option value="código 006">Sabor: Alho / Eucalipto (código 006)</option>
+                    <option value="código 002">Sabor: Eucalipto (código 002)</option>
+                    <option value="código 021">Sabor: Abacaxi/Hortelã (código 021)</option>
+                    <option value="código 068">Sabor: Açaí e Guaraná (código 068)</option>
+                    <option value="código 007">Sabor: Acerola (código 007)</option>
+                    <option value="código 008">Sabor: Amendoim (código 008)</option>
+                    <option value="código 005">Sabor: Limão (código 005)</option>
+                    <option value="código 004">Sabor: Romã/Gengibre (código 004)</option>
+                </select>
+
+                <label for="quantidades5">Quantidade (5)</label>
+
+                <select id="quantidades5" name="quantidades5">
+                    <option selected disabled value="">Quantidades</option>
+                    <option value="1 Caixa">1 Caixa</option>
+                    <option value="2 Caixas">2 Caixa</option>
+                    <option value="3 Caixas">3 Caixa</option>
+                    <option value="4 Caixas">4 Caixa </option>
+                    <option value="5 Caixas">5 Caixa </option>
+                    <option value="6 Caixas">6 Caixa </option>
+                    <option value="7 Caixas">7 Caixa </option>
+                    <option value="8 Caixas">8 Caixa </option>
+                    <option value="9 Caixas">9 Caixa </option>
+                    <option value="10 Caixas">10 Caixa </option>
+
+                </select>
+                </select>
+                <label for="sabores6">Sabores (6)</label>
+                <select id="sabores6" name="sabores6">
+                    <option selected disabled value="">Sabores</option>
+                    <option value="código 131">Sabor: Eucalipto Copaíba (código 131)</option>
+                    <option value="código 001">Sabor: Geleia Real (código 001)</option>
+                    <option value="código 006">Sabor: Alho / Eucalipto (código 006)</option>
+                    <option value="código 002">Sabor: Eucalipto (código 002)</option>
+                    <option value="código 021">Sabor: Abacaxi/Hortelã (código 021)</option>
+                    <option value="código 068">Sabor: Açaí e Guaraná (código 068)</option>
+                    <option value="código 007">Sabor: Acerola (código 007)</option>
+                    <option value="código 008">Sabor: Amendoim (código 008)</option>
+                    <option value="código 005">Sabor: Limão (código 005)</option>
+                    <option value="código 004">Sabor: Romã/Gengibre (código 004)</option>
+                </select>
+
+                <label for="quantidades6">Quantidade (6)</label>
+
+                <select id="quantidades6" name="quantidades6">
+                    <option selected disabled value="">Quantidades</option>
+                    <option value="1 Caixa">1 Caixa</option>
+                    <option value="2 Caixas">2 Caixa</option>
+                    <option value="3 Caixas">3 Caixa</option>
+                    <option value="4 Caixas">4 Caixa </option>
+                    <option value="5 Caixas">5 Caixa </option>
+                    <option value="6 Caixas">6 Caixa </option>
+                    <option value="7 Caixas">7 Caixa </option>
+                    <option value="8 Caixas">8 Caixa </option>
+                    <option value="9 Caixas">9 Caixa </option>
+                    <option value="10 Caixas">10 Caixa </option>
+                </select>
+            </div>
+
+            <h4>POTE APIMEL</h4>
+            <div id="caixinhas">
+                <label for="saboresP">Sabores (1)</label>
+                <select id="saboresP" name="saboresP">
+                    <option selected disabled value="">Sabores</option>
+                    <option value="código 131">Sabor: Eucalipto Copaíba (código 131)</option>
+
+                    <option value="código 123">Sabor: Sabor: Limão/Hortelã (Sacarose, Mel, Aromas Limão, Hortelã,
+                        Eucalipto e Própolis) (código 123)</option>
+
+                    <option value="código 126">Sabor: Romã/Gengibre (Sacarose, Mel, Aromas Romã, Gengibre e Própolis)
+                        (código 126)</option>
+                </select>
+
+                <label for="quantidades">Quantidade (1)</label>
+
+                <select id="quantidades" name="quantidades">
+                    <option selected disabled value="">Quantidades</option>
+                    <option value="1 Caixa">1 Caixa</option>
+                    <option value="2 Caixas">2 Caixa</option>
+                    <option value="3 Caixas">3 Caixa</option>
+                    <option value="4 Caixas">4 Caixa </option>
+                    <option value="5 Caixas">5 Caixa </option>
+                    <option value="6 Caixas">6 Caixa </option>
+                    <option value="7 Caixas">7 Caixa </option>
+                    <option value="8 Caixas">8 Caixa </option>
+                    <option value="9 Caixas">9 Caixa </option>
+                    <option value="10 Caixas">10 Caixa </option>
+                </select>
+
+                <label for="saboresP2">Sabores (2)</label>
+                <select id="saboresP2" name="saboresP2">
+                    <option selected disabled value="">Sabores</option>
+                    <option value="código 131">Sabor: Eucalipto Copaíba (código 131)</option>
+
+                    <option value="código 123">Sabor: Sabor: Limão/Hortelã (Sacarose, Mel, Aromas Limão, Hortelã,
+                        Eucalipto e Própolis) (código 123)</option>
+
+                    <option value="código 126">Sabor: Romã/Gengibre (Sacarose, Mel, Aromas Romã, Gengibre e Própolis)
+                        (código 126)</option>
+                </select>
+
+                <label for="quantidade2">Quantidade (2)</label>
+
+                <select id="quantidade2" name="quantidade2">
+                    <option selected disabled value="">Quantidades</option>
+                    <option value="1 Caixa">1 Caixa</option>
+                    <option value="2 Caixas">2 Caixa</option>
+                    <option value="3 Caixas">3 Caixa</option>
+                    <option value="4 Caixas">4 Caixa </option>
+                    <option value="5 Caixas">5 Caixa </option>
+                    <option value="6 Caixas">6 Caixa </option>
+                    <option value="7 Caixas">7 Caixa </option>
+                    <option value="8 Caixas">8 Caixa </option>
+                    <option value="9 Caixas">9 Caixa </option>
+                    <option value="10 Caixas">10 Caixa </option>
+
+                </select>
+
+                <label for="saboresP3">Sabores (3)</label>
+                <select id="saboresP3" name="saboresP3">
+                    <option selected disabled value="">Sabores</option>
+                    <option value="código 131">Sabor: Eucalipto Copaíba (código 131)</option>
+
+                    <option value="código 123">Sabor: Sabor: Limão/Hortelã (Sacarose, Mel, Aromas Limão, Hortelã,
+                        Eucalipto e Própolis) (código 123)</option>
+
+                    <option value="código 126">Sabor: Romã/Gengibre (Sacarose, Mel, Aromas Romã, Gengibre e Própolis)
+                        (código 126)</option>
+                </select>
+
+                <label for="quantidade3">Quantidade (3)</label>
+
+                <select id="quantidade3" name="quantidade3">
+                    <option selected disabled value="">Quantidades</option>
+                    <option value="1 Caixa">1 Caixa</option>
+                    <option value="2 Caixas">2 Caixa</option>
+                    <option value="3 Caixas">3 Caixa</option>
+                    <option value="4 Caixas">4 Caixa </option>
+                    <option value="5 Caixas">5 Caixa </option>
+                    <option value="6 Caixas">6 Caixa </option>
+                    <option value="7 Caixas">7 Caixa </option>
+                    <option value="8 Caixas">8 Caixa </option>
+                    <option value="9 Caixas">9 Caixa </option>
+                    <option value="10 Caixas">10 Caixa </option>
+                </select>
+
+
+            </div>
+            <h4>AGRANEL </h4>
+            <div id="">
+                <label for="saboresAGRANEL">Sabores (1)</label>
+                <select id="saboresAGRANEL" name="saboresAGRANEL">
+                    <option selected disabled value="">AGRINEL FITA OU INTEIRO</option>
+                    <option value="código 067">Sabor: Açai, Romã, Limão, Eucalipto, Abacaxi, Acerola, Amendoim, Alho,
+                        Geleia real (codigo 067) </option>
+
+                    <option value="código 066">Sabor: Açai, Romã, Limão, Eucalipto, Abacaxi, Acerola, Amendoim, Alho,
+                        Geleia real (codigo 066)</option>
+                </select>
+
+                <label for="quantidades">Quantidade (1)</label>
+
+                <select id="quantidades" name="quantidades">
+                    <option selected disabled value="">Quantidades</option>
+                    <option value="1 Caixa">1 Caixa</option>
+                    <option value="2 Caixas">2 Caixa</option>
+                    <option value="3 Caixas">3 Caixa</option>
+                    <option value="4 Caixas">4 Caixa </option>
+                    <option value="5 Caixas">5 Caixa </option>
+                    <option value="6 Caixas">6 Caixa </option>
+                    <option value="7 Caixas">7 Caixa </option>
+                    <option value="8 Caixas">8 Caixa </option>
+                    <option value="9 Caixas">9 Caixa </option>
+                    <option value="10 Caixas">10 Caixa </option>
+                </select>
+                
+                <label for="saboresAGRANEL2">Sabores (2)</label>
+                <select id="saboresAGRANEL2" name="saboresAGRANEL2">
+                    <option selected disabled value="">AGRINEL FITA OU INTEIRO</option>
+                    <option value="código 067">Sabor: Açai, Romã, Limão, Eucalipto, Abacaxi, Acerola, Amendoim, Alho,
+                        Geleia real (codigo 067) </option>
+
+                    <option value="código 066">Sabor: Açai, Romã, Limão, Eucalipto, Abacaxi, Acerola, Amendoim, Alho,
+                        Geleia real (codigo 066)</option>
+                </select>
+
+                <label for="quantidade2">Quantidade (2)</label>
+
+                <select id="quantidade2" name="quantidade2">
+                    <option selected disabled value="">Quantidades</option>
+                    <option value="1 Caixa">1 Caixa</option>
+                    <option value="2 Caixas">2 Caixa</option>
+                    <option value="3 Caixas">3 Caixa</option>
+                    <option value="4 Caixas">4 Caixa </option>
+                    <option value="5 Caixas">5 Caixa </option>
+                    <option value="6 Caixas">6 Caixa </option>
+                    <option value="7 Caixas">7 Caixa </option>
+                    <option value="8 Caixas">8 Caixa </option>
+                    <option value="9 Caixas">9 Caixa </option>
+                    <option value="10 Caixas">10 Caixa </option>
+
+                </select>
+        </form>
+
+            <input type="hidden" name="_captcha" value="false" id="">
+            <input type="hidden" name="_next" value="https://matheusvianadias.github.io/MELZINHO/obrigado.html"
+                target="_blank">
+            <button type="submit" target="_blank">Enviar</button>
+
+</body>
+
+</html>
